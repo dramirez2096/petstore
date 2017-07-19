@@ -3,12 +3,23 @@
 /*Global Styles*/
 
 /*Header Styles*/
+a, a:hover{
+  text-decoration: none;
+}
 .logo-img{
   height: 70px;
+}
+.logo-wrapper{
+  width: 50%;
 }
 .logo-text{
   font-family: 'Satisfy', cursive;
   color: #FF827B;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 /*End Header Styles*/
 
@@ -32,4 +43,34 @@
 
 .product-img{
   padding: 0px 7.5px;
+}
+
+/*Footer Styles*/
+footer{
+  height: 150px;
+  background-color: #333;
+  padding: 15px;
+}
+footer a, footer a:hover{
+  color: #bfc0c1
+}
+footer img.logo-img{
+  width: 90px;
+}
+.address-border{
+  border-left: 1px solid #505050;
+  border-right: 1px solid #505050;
+}
+address{
+  color: #bfc0c1;
+}
+address>a:hover{
+  color: #bfc0c1;
+  text-decoration: none;
+}
+.dis-block{
+  display: block;
+}
+.copyright{
+  color: #505050;
 }
